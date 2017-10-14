@@ -34,6 +34,7 @@ source "$BIN_DIR/steps/hooks/pre_compile"
 source "$BIN_DIR/steps/swift-build"
 source "$BIN_DIR/steps/swift-install"
 source "$BIN_DIR/steps/libatomic-install"
+source "$BIN_DIR/steps/slug-cleanup"
 
 # Setup application environment
 mkdir -p $BUILD_DIR/.profile.d
